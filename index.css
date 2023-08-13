@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #748067;
+}
+
+#panel {
+    overflow: hidden;
+    width: 85%;
+    height: 85%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#panel-top {
+    display: flex;
+    color: #0B0A07;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #E3D87E;
+}
+
+#panel-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #F0EC57;
+    width: 100%;
+    height: 100%;
+
+}
+
+.bubble {
+    height: 40px;
+    width: 40px;
+    color: #F0EC57;
+    background-color: #0B0A07;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+
+
+
+
+}
+
+.elem {
+    width: 30%;
+
+}
+
+.box {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.game-over {
+    font-size: 60px;
+    margin: auto;
+
+}
+
+#play-again {
+    font-size: 40px;
+    margin: auto;
+    padding: 10px 20px;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#lets-play {
+    font-size: 40px;
+    padding: 10px 20px;
+    margin: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+#game-rules {
+    font-size: 30px;
+    text-align: center;
+}
